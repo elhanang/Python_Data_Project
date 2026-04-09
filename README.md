@@ -81,7 +81,8 @@ plt.show()
 
 ### The Results
 
-![Visualization of the Top Skills for Data Nerds](2_Project\images\In_Demand_Skills_of_all_Data_Roles.png)
+![Visualization of the Top Skills for Data Nerds](2_Project\
+/images/In_Demand_Skills_of_all_Data_Roles.png)
 
 ### Here are the key insights from this visualization:
 
@@ -102,7 +103,7 @@ plt.show()
 
 To analyze skill trends for Data Analysts in 2023, I filtered for data analyst roles and aggregated skills by posting month. This revealed the top 5 skills each month, illustrating their popularity throughout the year.
 
-View my notebook with detailed steps right here: [3_Skills_Trend.ipynb](2_Project\3_Skills_Trend.ipynb)
+View my notebook with detailed steps right here: [3_Skills_Trend.ipynb](2_Project/3_Skills_Trend.ipynb)
 
 
 ### Visualize Data
@@ -120,7 +121,7 @@ plt.show()
 
 ### The Results
 
-![Trending Top Skills for Data Analysts in the US](2_Project\images\skills_trend_DA.png)
+![Trending Top Skills for Data Analysts in the US](2_Project/images/skills_trend_DA.png)
 *Bar Graph Visualizing the Trending Top Skills for Data Analysts in the US in 2023*
 
 ### Here are the key insights from this visualization: 
@@ -139,7 +140,7 @@ plt.show()
 
 To identify the highest-paying roles and skills, I filtered for US-based positions and analyzed median salaries. I began by examining salary distributions across common data positions—Data Scientist, Data Engineer, and Data Analyst—to determine which roles command the highest compensation.
 
-View my notebook with detailed steps right here: [4_Salary_Analysis.ipynb](2_Project\4_Salary_Analysis.ipynb)
+View my notebook with detailed steps right here: [4_Salary_Analysis.ipynb](2_Project/4_Salary_Analysis.ipynb)
 
 
 ### Visualize Data
@@ -156,7 +157,7 @@ plt.show()
 
 ### The Results
 
-![Salary Distribution for Data Jobs in th US](2_Project\images\salary_boxplot.png)
+![Salary Distribution for Data Jobs in th US](2_Project/images/salary_boxplot.png)
 *Box plot visualizing the salary distributions for the top 6 data job titles.*
 
 ### Here are the key insights from this visualization: 
@@ -187,7 +188,7 @@ sns.barplot(data=df_DA_skills, x='median', y=df_DA_skills.index, hue='median', a
 plt.show()
 ```
 
-![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](2_Project\images\Highest_Paid_and_In_Demand_Skills_for_Data_Analysts_in_the_US.png)
+![The Highest Paid & Most In-Demand Skills for Data Analysts in the US](2_Project/images/Highest_Paid_and_In_Demand_Skills_for_Data_Analysts_in_the_US.png)
 *Two separate bar graphs visualizing the highest paid skills and most in-demand skills for data analysts in the US.*
 
 ### The Results
@@ -204,7 +205,7 @@ plt.show()
 
 To identify the most optimal skills (those offering both high compensation and strong demand) I analyzed the percentage of jobs requiring each skill alongside their median salaries. This dual-metric approach reveals which skills provide the best return on investment for skill development.
 
-View my notebook with detailed steps right here: [5_Optimal_Skills.ipynb](2_Project\5_Optimal_Skills.ipynb)
+View my notebook with detailed steps right here: [5_Optimal_Skills.ipynb](2_Project/5_Optimal_Skills.ipynb)
 
 ### Visualize Data
 
@@ -218,7 +219,7 @@ plt.show()
 
 ### The Results
 
-![Most Optimal Skills for Data Analysts in the US](2_Project\images\Most_Optimal_Skills_for_Data_Analysts_in_the_US_With_Coloring__by_Technology.png)
+![Most Optimal Skills for Data Analysts in the US](2_Project/images/Most_Optimal_Skills_for_Data_Analysts_in_the_US_With_Coloring__by_Technology.png)
 *A Scatter Plot Visualizing the Most Optimal Skills (High Paying & High Demand) for Data Analysts in the US.*
 
 ### Here are the key insights from this visualization:
